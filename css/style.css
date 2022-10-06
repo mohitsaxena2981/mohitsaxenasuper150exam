@@ -1,0 +1,300 @@
+@import url( https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap);
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ .navitem li{
+     display: inline-block;
+     list-style-type:none;
+     padding: 10px;
+     
+ }
+
+
+
+ .logo a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+ }
+
+ .shopicon button{
+    padding: 10px 20px 10px 20px;
+    border: 1px solid ;
+    border-radius: 45px;
+    background: none;
+    color: white;
+ }
+
+ .shopicon button:hover{
+    padding: 10px 40px 10px 40px;
+    transition: 0.4s;
+    letter-spacing: .2rem;
+    background-color: burlywood;
+    color: #010103;
+ }
+ 
+ .navitem a{
+     text-decoration: none;
+     color: burlywood;
+ }
+ 
+ .navitem a:hover{
+     border-bottom: 1px solid burlywood;
+     color: burlywood;
+     padding-bottom: 10px;
+     transition: 0.4s;
+ }
+ 
+ .shopicon{
+     margin-right: 40px;
+ }
+ .shopicon a{
+     padding: 10px;
+     color: burlywood;
+ }
+ 
+ .navbar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(36, 13, 13);
+     padding: 30px;
+    
+ }
+
+
+ .photographer{
+    margin: 15px;
+    border:1px solid;
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 20px;
+ }
+
+
+ 
+ 
+
+ .menu h1{
+    text-align: center;
+    color: burlywood;
+    padding: 20px;
+    font-size: 40px;
+ }
+ 
+ .card{
+     display: flex;
+     justify-content: flex-start;
+     flex-wrap: wrap;
+ }
+ 
+ .cardbody{
+     height: 300px;
+     width: 400px;
+     border: 1px solid white;
+     margin: 20px;
+     text-align: center;
+     padding-top: 40px;
+     margin-left: 50px;
+     color: white;
+     border: 1px solid;
+     border-radius: 10px;
+ }
+
+
+ .cardbody1{
+    background-image: url('../images/img1exam.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+
+ .cardbody2{
+    background-image: url('../images/img2exam.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+
+ .cardbody3{
+    background-image: url('../images/img3exam.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+
+ .cardbody4{
+    background-image: url('../images/img4exam.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+ .cardbody5{
+    background-image: url('../images/img5exam.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+ .cardbody6{
+    background-image: url('../images/img4exam.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+ .cardbody7{
+    background-image: url('../images/img2exam.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+
+ .cardbody8{
+    background-image: url('../images/img8exam\'.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+
+ .cardbody9{
+    background-image: url('../images/img4exam.jpg');
+    background-repeat: none;
+    background-size: cover;
+    color: aliceblue;
+ }
+
+
+ .cardbody:hover{
+    background-image: url('../images/cameraimg.jpg');
+ }
+
+ .banner{
+    height:300px;
+    background-image: url('../images/imgbanner.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+ }
+ .banner1 h2,h1,p{
+    margin-bottom: 10px;
+ }
+ .banner1{
+    height: 200px;
+    width: 500px;
+ 
+ }
+
+ .banner button{
+
+        padding: 10px 20px 10px 20px;
+        border: 1px solid ;
+        border-radius: 45px;
+        background: none;
+        color: yellowgreen;
+        margin-top: 20px;
+     
+ }
+ .banner button:hover{
+    padding: 10px 40px 10px 40px;
+    transition: 0.4s;
+    letter-spacing: .2rem;
+    background-color: yellowgreen;
+    color: #010103;
+ }
+
+
+ 
+
+ 
+.footer{
+    background-color: #010103;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.footer .share{
+    padding:1rem 0;
+    color: white;
+    width: 25%;
+    margin-top: 45px;
+}
+
+.footer .share a{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 1rem;
+    color:#fff;
+    border:.1rem solid rgba(255,255,255,.3);
+    margin:.3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+    background-color: burlywood;
+    transition: 0.4s;
+}
+
+
+.share1{
+    margin-top: 15px;
+    padding:1rem 0;
+    color: white;
+    width: 25%
+}
+
+.footer .share1 a{
+    display: block;
+    line-height: 3rem;
+    font-size: 1rem;
+    color:#fff;
+    margin:.3rem;
+    text-decoration: none;
+}
+
+
+.share2{
+    margin-top: 15px;
+    padding:1rem 0;
+    color: white;
+    width: 25%;
+    margin-top: 45px;
+}
+
+
+.share2 button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 15px;
+    border: 1px solid ;
+    border-radius: 45px;
+    background: powderblue;
+
+}
+
+.share2 h3{
+    margin-bottom: 20px;
+}
+
+.share2 .input{
+    padding:20px 50px 20px 50px;
+}
+
+.footer .share1 a{
+    display: block;
+    line-height: 3rem;
+    font-size: 1rem;
+    color:#fff;
+    margin:.3rem;
+    text-decoration: none;
+}
